@@ -218,7 +218,7 @@ export default function ContactPage() {
                       type="tel"
                       value={form.phone}
                       onChange={handleChange}
-                      placeholder="+20 123 456 7890"
+                      placeholder="+1 214-555-0123"
                       className={inputClass}
                     />
                   </div>

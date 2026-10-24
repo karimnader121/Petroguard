@@ -87,7 +87,7 @@ export default function CertificationsPage() {
             Certifications
           </h1>
           <p className="font-body text-body-lg text-surface-variant max-w-2xl">
-            Every Prolift product and service is backed by internationally recognised third-party certification. Our compliance register is maintained annually and available to clients on request.
+            Every Petroguard product and service is backed by internationally recognised third-party certification. Our compliance register is maintained annually and available to clients on request.
           </p>
         </div>
       </section>
@@ -212,7 +212,7 @@ export default function CertificationsPage() {
               </h2>
               <div className="h-1 w-24 bg-primary mb-8" />
               <p className="font-body text-body-lg text-secondary leading-relaxed mb-6">
-                Prolift operates a fully integrated quality management system. Every product shipped carries traceable documentation — from raw material mill certificates through proof load test records to final inspection sign-off.
+                Petroguard operates a fully integrated quality management system. Every product shipped carries traceable documentation — from raw material mill certificates through proof load test records to final inspection sign-off.
               </p>
               <p className="font-body text-body-lg text-secondary leading-relaxed">
                 Our internal audit cycle runs quarterly; external surveillance audits are conducted annually by accredited third-party certification bodies. All non-conformances are tracked, investigated, and closed under our documented CAPA process.

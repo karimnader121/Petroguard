@@ -1,8 +1,8 @@
-# PROlift Company Website
+# Petroguard Website
 
-A modern, responsive corporate website developed for **PROlift**, showcasing the company's lifting and rigging products, services, and expertise. The website is built with **React.js**, **TypeScript**, and **Tailwind CSS**, delivering a fast, scalable, and user-friendly experience.
+A modern, responsive corporate website developed for **Petroguard**, showcasing the company's lifting and rigging products, services, and expertise. The website is built with **React.js**, **TypeScript**, and **Tailwind CSS**, delivering a fast, scalable, and user-friendly experience.
 
-> Designed and developed as the official online presence for PROlift.
+> Designed and developed as the official online presence for Petroguard.
 
 ---
 
@@ -50,8 +50,6 @@ src/
 
 ## 🌍 Live Demo
 
-**Website:** https://prolift-co.com
-
 ---
 
 ## 📈 Performance
@@ -74,6 +72,6 @@ src/
 
 ## 📄 License
 
-This project was developed as the official website for **PROlift**. All branding, product information, and media belong to their respective owners.
+This project was developed as the official website for **Petroguard**. All branding, product information, and media belong to their respective owners.
 
 The source code is provided for portfolio purposes only and may not be copied or redistributed without permission.

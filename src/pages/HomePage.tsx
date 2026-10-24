@@ -21,7 +21,7 @@ export default function HomePage() {
         <div className="relative z-10 px-4 md:px-16 max-w-[1440px] mx-auto w-full">
           <div className="max-w-xl md:max-w-2xl bg-surface/90 p-6 md:p-10 hard-shadow border-l-4 border-primary backdrop-blur-sm">
             <h1 className="font-display text-display-lg text-on-surface mb-4">
-              Safety is the priority.. Quality is the standard
+              Safety First... Quality Always.
             </h1>
             {/* <p className="font-body text-body-lg text-secondary mb-8">
               ISO-Certified Equipment for Global Oil&nbsp;&amp;&nbsp;Gas
@@ -59,7 +59,7 @@ export default function HomePage() {
             </div>
             <div className="md:col-span-7">
               <p className="font-body text-body-lg leading-relaxed text-secondary border-l-2 border-outline-variant pl-6 md:pl-8 italic">
-                "To define the future of the lifting and rigging sector in Egypt
+                "To define the future of the lifting and rigging sector in USA
                 as the market’s most valued and dependable service provider. Our
                 vision is to empower industries with premium accessories and
                 engineering integrity, fostering safer, more efficient
@@ -72,7 +72,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Stats Bar ── */}
-      <section className="bg-on-background py-10 md:py-12 border-y-4 border-primary">
+      {/* <section className="bg-on-background py-10 md:py-12 border-y-4 border-primary">
         <div className="px-4 md:px-16 max-w-[1440px] mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
@@ -98,7 +98,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Equipment Categories ── */}
       <section className="py-20 md:py-24 bg-surface-container-low">

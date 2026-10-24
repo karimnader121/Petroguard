@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 //   {
 //     year: "1987",
 //     title: "Founded in Houston",
-//     desc: "Prolift Industrial begins as a wire rope supply company serving Gulf Coast refineries and offshore rigs.",
+//     desc: "Petroguard begins as a wire rope supply company serving Gulf Coast refineries and offshore rigs.",
 //   },
 //   {
 //     year: "1995",
@@ -68,11 +68,11 @@ export default function AboutPage() {
             Our Story
           </div>
           <h1 className="font-display text-display-lg text-inverse-on-surface mb-4">
-            About Prolift
+            About Petroguard
           </h1>
           <p className="font-body text-body-lg text-surface-variant max-w-2xl">
-            PROlift has been established to serve Oil & Gas companies and
-            Construction Companies in Egypt by providing certified lifting
+            Petroguard has been established to serve Oil & Gas companies and
+            Construction Companies in USA by providing certified lifting
             supplies ( WIRE ROPE SLING, LIFTING ACCESSORIES, FLAT WEBBING SLING
             / RATCHET STRAP, PERSONAL PROTECTIVE EQUIPMENT ( PPE ), OFFSHORE
             CONTAINERS ) With high quality and competitive price.
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 By combining this technical expertise with a commitment to
                 premium quality and unmatched customer service, our goal is to
                 set the benchmark that defines the lifting industry across
-                Egypt.
+                USA.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -274,20 +274,22 @@ export default function AboutPage() {
                     {office.phone}
                   </span>
                 </div>
-                <div className="flex items-center gap-2 mt-auto pt-3 border-t border-outline/20">
-                  <Icon
-                    name="phone"
-                    className={
-                      office.isHQ ? "text-primary-fixed-dim" : "text-outline"
-                    }
-                    size="sm"
-                  />
-                  <span
-                    className={`font-mono-spec text-utility-sm ${office.isHQ ? "text-primary-fixed-dim" : "text-secondary"}`}
-                  >
-                    {office.phone2}
-                  </span>
-                </div>
+                {office.phone2 && (
+                  <div className="flex items-center gap-2 mt-auto pt-3 border-t border-outline/20">
+                    <Icon
+                      name="phone"
+                      className={
+                        office.isHQ ? "text-primary-fixed-dim" : "text-outline"
+                      }
+                      size="sm"
+                    />
+                    <span
+                      className={`font-mono-spec text-utility-sm ${office.isHQ ? "text-primary-fixed-dim" : "text-secondary"}`}
+                    >
+                      {office.phone2}
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -302,7 +304,7 @@ export default function AboutPage() {
               Work with our engineering team
             </h2>
             <p className="text-on-primary-container font-body text-body-md mt-2 max-w-lg">
-              Talk directly with a Prolift engineer about your next project, no sales intermediaries.
+              Talk directly with a Petroguard engineer about your next project, no sales intermediaries.
             </p>
           </div>
           <Link

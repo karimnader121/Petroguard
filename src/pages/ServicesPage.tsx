@@ -32,7 +32,7 @@ export default function ServicesPage() {
       {/* <section className="py-16 md:py-20 px-4 md:px-16 bg-surface-container-low border-b border-outline-variant">
         <div className="max-w-[1440px] mx-auto">
           <h2 className="font-display text-headline-md text-on-surface uppercase tracking-wider mb-10">
-            Why Choose Prolift Services
+            Why Choose Petroguard Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {pillars.map((p) => (

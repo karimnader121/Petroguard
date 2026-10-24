@@ -30,7 +30,7 @@ export default function EquipmentPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-on-background/80 via-on-background/45 to-on-background/10" />
         <div className="relative z-10 px-4 md:px-16 py-10 max-w-[1440px] mx-auto w-full">
           <div className="font-mono-spec text-utility-sm text-primary-fixed tracking-[0.3em] uppercase mb-3">
-            Prolift Fleet
+            Petroguard Fleet
           </div>
           <h1 className="font-display text-display-lg text-inverse-on-surface mb-3">
             Equipment

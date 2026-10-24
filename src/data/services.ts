@@ -80,10 +80,10 @@ export const services: Service[] = [
 
 export const offices: OfficeLocation[] = [
   {
-    region: "Egypt HQ",
-    address: ["12 C Hadayek Al Ahram", "Giza, Egypt"],
-    phone: "+2 012 0003 0033",
-    phone2: "+2 012 2275 5456",
+    region: "Austin HQ",
+    address: ["5900 Balcones Drive STE 100", "Austin, TX", "USA"],
+    phone: "+1 (214) 436-3379",
+    phone2: "",
     isHQ: true,
   },
 ];

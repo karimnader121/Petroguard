@@ -24,15 +24,15 @@ export default function Footer() {
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-3">
             <span className="font-mono-spec text-label-caps text-surface-variant uppercase tracking-[0.2em]">
-              Prolift
+              Petroguard
             </span>
           </div>
           <p className="text-secondary-fixed-dim font-body text-body-md opacity-80 leading-relaxed max-w-xs">
-            Providing high-performance lifting solutions that power Egypt's
+            Providing high-performance lifting solutions that power USA's
             industries. Built on precision, reliability, and engineering
             excellence.
           </p>
-          <div className="flex gap-4 mt-1">
+          {/* <div className="flex gap-4 mt-1">
             <a
               href="https://www.linkedin.com/company/prolift-co/"
               className="text-surface-variant cursor-pointer hover:text-white transition-colors"
@@ -45,7 +45,7 @@ export default function Footer() {
             >
               <FaFacebook size={20} />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Technical Nav */}
@@ -70,12 +70,14 @@ export default function Footer() {
             Headquarters
           </h4>
           <p className="text-surface-variant font-body text-body-md">
-            12 C Hadayek Al Ahram
+            5900 Balcones Drive STE 100
             <br />
-            Giza, Egypt
+            Austin, TX
+            <br />
+            USA
           </p>
-          <a
-            href="https://maps.app.goo.gl/FzBmcSu1Ai8s7kns7"
+          {/* <a
+            href="https://www.google.com/maps/search/?api=1&query=5900+Balcones+Drive+STE+100%2C+Austin%2C+TX"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 text-surface-variant hover:text-white transition-colors flex items-center gap-2"
@@ -83,27 +85,27 @@ export default function Footer() {
           >
             <FaMapMarkerAlt size={16} />
             <span className="font-body text-body-sm">View on Google Maps</span>
-          </a>
+          </a> */}
           <div className="mt-2 flex flex-col gap-1 items-start">
             <p className="text-surface-variant font-body text-body-md flex items-baseline gap-2">
               <p className="font-bold text-primary-fixed">Contact :</p>
             </p>
             <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
               <FaPhone size={14} style={{ transform: "scaleX(-1)" }} />
-              +2 012 0003 0033
+              +1 (214) 436-3379
             </p>
-            <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
+            {/* <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
               <FaPhone size={14} style={{ transform: "scaleX(-1)" }} />
               +2 012 2275 5456
-            </p>
+            </p> */}
             <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
               <FaEnvelope size={14} />
-              info@prolift-co.com
+              info@petro-guard.com
             </p>
-            <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
+            {/* <p className="text-surface-variant font-body text-body-md pl-0 flex items-center gap-2">
               <FaEnvelope size={14} />
               sales@prolift-co.com
-            </p>
+            </p> */}
           </div>
           <div className="mt-4 flex items-center gap-2">
             <Icon name="verified" className="text-primary-fixed" size="sm" />
@@ -117,7 +119,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="px-4 md:px-16 py-5 border-t border-outline/20 max-w-[1440px] mx-auto">
         <p className="text-surface-variant font-body text-body-md text-sm opacity-70">
-          © {new Date().getFullYear()} Prolift . All Rights Reserved.
+          © {new Date().getFullYear()} Petroguard. All Rights Reserved.
         </p>
       </div>
     </footer>

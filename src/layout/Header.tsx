@@ -24,22 +24,10 @@ export default function Header() {
         >
           {/* <Logo /> */}
           <div className="leading-none">
-            {/* <span
-              className="block font-display text-primary font-bold"
-              style={{ fontSize: "16px", letterSpacing: "0.02em" }}
-            >
-              Prolift
-            </span>
-            <span
-              className="block font-display text-on-surface font-semibold"
-              style={{ fontSize: "14px", letterSpacing: "0.04em" }}
-            >
-              Industrial
-            </span> */}
             <img
               src={logoImage}
-              alt="Prolift Industrial Logo"
-              className="h-8 w-auto shrink-0"
+              alt="Petroguard Logo"
+              className="h-12 w-auto shrink-0 md:h-14"
             />
           </div>
         </Link>
